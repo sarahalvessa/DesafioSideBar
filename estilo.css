@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    font-family: 'poppins', Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    font-size: 12px;
+}
+/* Título */
+#title{
+    margin-left: 60px;
+    width:15%;
+    transition: all ease .2s;
+}
+/* Container */
+.container{
+    height: 104vh;
+    width: 50px;
+    margin-top: -50px;
+    background-color: #18c29c;
+    transition: all ease .2s;
+}
+.container ul li{
+    padding:5px;
+    list-style: none;
+}
+.container ul li a{
+    text-decoration: none;
+    color: #084236;
+    pointer-events: none;
+}
+/* Logo */
+.logo{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 15px;
+    display: none;
+}
+.logo img{
+    height: 30px;
+    width: 60px;
+}
+/* Menu-side */
+.menu-side{
+    transition: all ease .2s;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+/* ícones */
+.icons{
+    width: 50px;
+    cursor: pointer;
+}
+.icons img{
+    height: 20px;
+    padding: 10px;
+}
+/* Imagem do Footer */
+.photo-name{
+    margin-top: -50px;
+    margin-left: -140px;
+    transition: all ease .2s;
+}
+.photo-name img{
+    width: 50px;
+    height: 40px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+.photo-name p{
+    font-size: 12px;
+    margin-left: 30px;
+}
+/* Parágrafo do Footer */
+.paragrafo{
+    margin-top: -40px;
+    margin-left: 30px;
+}
+.paragrafo-p{
+    font-weight: bold;
+}
+.text{
+    height: 40px;
+    width: 80px;
+    margin-left: -75px;
+    margin-top:-40px;
+    cursor: pointer;
+    transition: all ease .1s;
+}
+/* Ícone do Footer */
+.icon-log-out{
+    background-color: #8ed7c6;
+    width: 40px;
+    height: 50px;
+    transition: all ease .2s;
+}
+.icon-log-out a img{
+    margin-top:5px;
+    transition: all ease .2s;
+}
